@@ -1,0 +1,14 @@
+Apa yang dimaksud dengan struktur dasar HTML?
+jawab : HTML memiliki struktur dasar yang terdiri dari elemen-elemen seperti <html>, <head>, dan <body>. 
+    Elemen <html> sebagai elemen induk yang mengelilingi seluruh konten dokumen HTML. 
+    Elemen <head> digunakan untuk menambahkan informasi tentang dokumen seperti judul, meta tag, dll.
+    Elemen <body> berisi konten yang akan ditampilkan pada halaman web.
+Apa fungsi tag <head> dalam struktur dasar HTML?
+jawab : Elemen <head> digunakan untuk menambahkan informasi tentang dokumen seperti judul, meta tag, dll.
+Apa perbedaan antara tag <div> dan <span> dalam HTML?
+jawab : <div>	: Elemen ini digunakan untuk mengelompokkan elemen-elemen HTML menjadi blok yang dapat diatur secara terpisah.
+      <span>	: Elemen ini digunakan untuk mengelompokkan sebagian teks dalam elemen yang lebih kecil.    
+Apa fungsi tag <h1> dalam HTML?
+jawab : Elemen untuk membuat judul
+Bagaimana cara menggunakan tag <a> untuk membuat tautan (link) dalam HTML?
+jawab : Dengan menambahkan atribut href, jika atribut href tidak ada maka tag <a> tidak akan menjadi hyperlink.

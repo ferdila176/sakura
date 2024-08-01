@@ -1,0 +1,11 @@
+Apa yang dimaksud dengan bootstap?
+jawab : Bootstrap adalah framework front-end yang menyediakan komponen dan gaya yang siap pakai untuk membangun tampilan web yang responsif.
+Apa fungsi bootstrap?
+jawab : Responsive design: membuat website yang responsif dan dapat ditampilkan pada berbagai ukuran layar.
+Grid system: membantu membangun tata letak dengan menggunakan sistem grid 12 kolom.
+Sebutkan satu contoh komponen Bootstrap yang dapat digunakan untuk membuat navigasi?
+jawab : tab, pil, dan daftar.
+Bagaimana cara menggunakan grid system dalam Bootstrap untuk mengatur tata letak halaman web?
+jawab : Sistem grid Bootstrap menggunakan serangkaian kontainer, baris, dan kolom untuk menata dan menyelaraskan konten. Sistem ini dibuat dengan flexbox dan sepenuhnya responsif.
+Sebutkan komponen Bootstrap minimal 3?
+jawab :  navbar, jumbotron, card, dan modal.

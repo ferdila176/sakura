@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gambar di Tengah dengan Flexbox</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Atur sesuai kebutuhan */
+      }
+      .image {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="image" src="kelinci.jpg" alt="Gambar" />
+    </div>
+    <p>Deskripsi gambar.</p>
+  </body>
+</html>
+

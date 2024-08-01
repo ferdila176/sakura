@@ -1,0 +1,24 @@
+.navbar-custom{
+    background-color: brown;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .service-item,
+  .portfolio-item {
+    animation: slideIn 1s ease-in-out;
+  }
+  

@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    padding-bottom: 10px;
+    background-color: firebrick;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+h1{
+    margin: 1rem;
+}
+nav ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+#hero{
+    background: url("gambar/sakura1.jpg") no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 5rem 0;
+}
+#hero h2{
+    font-size: 3rem;
+    margin: 0;
+    color: #bf0a30;
+    
+}
+#hero p{
+    font-size: 1.5rem;
+    color: #fff;
+}
+section{
+    padding: 3rem 0;
+    border-bottom: 1px solid #fff;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.service-item{
+    background-color: #CD5C5C;
+    margin: 1rem 0;
+    padding: 1rem ;
+    border-radius: 8px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+.portofolio-item{
+    background-color: #CD5C5C;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+footer{
+    background-color: firebrick;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.from-left{
+    width:100%;
+    animation-name: fly-from-left;
+    animation-duration: 2s;
+}
+
+.delay-1{
+    animation-duration: 3.5s;
+}
+
+.delay-2{
+    animation-duration: 5.5s;
+}
+
+.delay-3{
+    animation-duration: 7.5s;
+}
+
+.delay-4{
+    animation-duration: 9.5s;
+}
+
+.delay-5{
+    animation-duration: 11.5s;
+}
+
+.delay-6{
+    animation-duration: 13.5s;
+}
+
+@keyframes fly-from-left{
+    from {margin-left:-100%;};
+    to {margin-left:0;};
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+button:hover{
+    background: #bf0a30;
+}

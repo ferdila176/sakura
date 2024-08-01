@@ -1,0 +1,11 @@
+Jelaskan definisi CSS?
+jawab : CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk mengatur tampilan dan gaya elemen dalam sebuah dokumen HTML. 
+CSS memungkinkan pemisahan antara struktur konten dan gaya tampilan, sehingga memudahkan pengembangan dan pemeliharaan web.
+Apa fungsi css?
+jawab : CSS berfungsi untuk memisahkan konten dari tampilan visualnya di situs.
+Apa itu CSS inline?
+jawab : Inline Style Sheet merupakan metode atau cara penulisan CSS langsung pada tag HTML yang ingin diberikan style CSS. 
+Apa itu CSS internal?
+jawab : Internal Style Sheet merupakan metode penulisan CSS langsung didalam file HTML tepatnya berada diantara tag head dengan diapit tag style terlebih dahulu sebelum memulai kode CSS. 
+Apa itu CSS eksternal?
+jawab : Eksternal Style Sheet merupakan metode penulisan CSS secara terpisah dengan memberikan ekstensi .css untuk nama filenya.

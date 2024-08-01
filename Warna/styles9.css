@@ -1,0 +1,60 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden
+}
+header{
+    background: url("kucing.jpeg") no-repeat center center/cover;
+    color: #ccc;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 3em;
+}
+header nav{
+    margin-top: 10px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+header ul li{
+    display: inline;
+    margin-left: 20px;
+}
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.selection{
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.selection h2{
+    margin-top: 0;
+}
+.selection img{
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+footer{
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer p{
+    margin: 0;
+}

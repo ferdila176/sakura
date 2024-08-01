@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh Formulir</title>
+  </head>
+  <body>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="proses.php" method="post">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" placeholder="Masukkan alamat email" required>
+      <br>
+      <label for="alamat">Alamat:</label>
+      <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat" required>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <label for="Super_Hiro">Super Hiro:</label>
+      <input type="radio" id="batman" name="super_hiro" value="batman" checked>
+      <label for="batman">Batman</label>
+      <input type="radio" id="superman" name="super_hiro" value="superman">
+      <label for="superman">Superman</label>
+      <input type="radio" id="spidermen" name="super_hiro" value="spidermen">
+      <label for="spedermen">Spidermen</label>
+      <br>
+      <label for="hobi">Hobi:</label>
+      <input type="checkbox" id="musik" name="hobi[]" value="musik">
+      <label for="musik">Musik</label>
+      <input type="checkbox" id="olahraga" name="hobi[]" value="olahraga">
+      <label for="olahraga">Olahraga</label>
+      <input type="checkbox" id="membaca" name="hobi[]" value="membaca">
+      <label for="membaca">Membaca</label>
+      <input type="checkbox" id="memasak" name="hobi[]" value="memasak">
+      <label for="memasak">Memasak</label>
+      <input type="checkbox" id="bermain" name="hobi[]" value="bermain">
+      <label for="bermain">Bermain</label>
+      <br>
+      <input type="submit" value="Daftar">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>
+
